@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Balsamiq Sans", sans-serif;
+    color: #272727;
+    background-color: #FF652F;
+}
+
+.row {
+    margin: 0;
+}
+
+.navbar-brand {
+    color: inherit !important;
+    padding-left: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navbar {
+    padding: 4px 12px 4px 12px;
+    border-bottom: 2px solid #FFE400;
+}
+
+footer {
+    border-top: 2px solid #FFE400;
+}
+
+.mainScreen {
+    text-align: center;
+}
+
