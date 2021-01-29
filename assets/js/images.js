@@ -1,5 +1,5 @@
 /* If adding more images to the game upload them as 370x370 in PNG format, 
-    and link to them, name them & describe them inside images array */
+    and link to them, name them & describe them inside here */
 var images = [
     { src:'assets/images/puzzleImages/blueLagoon.png', title:'Blue Lagoon - Iceland', 
         text: `The Blue Lagoon (Icelandic: Bláa lónið) is a geothermal spa in southwestern Iceland. 

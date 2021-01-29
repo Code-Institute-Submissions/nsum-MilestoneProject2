@@ -37,3 +37,114 @@ footer {
     text-align: center;
 }
 
+.btn {
+    min-width: 6rem;
+    background-color: #FFE400;
+    color: #272727;
+    border: 3px solid #272727;
+    border-radius: 1rem;
+}
+
+.btn:hover {
+    min-width: 6rem;
+    background-color: #a6ff00;
+    color: #272727;
+    border: 3px solid #272727;
+    border-radius: 1rem;
+}
+
+#stepBox, #timeBox {
+    margin: 0;
+}
+
+.radios {
+    margin: 2rem 0;
+}
+
+.radios p label {
+    padding: 0 0.5rem;
+}
+
+.spent {
+    padding-top: 1rem;
+}
+
+
+
+
+.hintButton {
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+}
+
+
+
+.hintBox {
+    padding: 1rem;
+}
+
+#playPanel, .hintBox, #actualImageBox {
+    padding: 2rem;
+}
+
+#actualImage {
+    margin-top: 30px;
+}
+
+#textDescription {
+    padding: 1rem 5rem;
+    font-size: 1.2rem;
+}
+
+
+
+#infoButton {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 80%;
+    height: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.puzzleBox {
+    display: inline-block;
+    margin: auto;
+    vertical-align: top;
+    
+}
+
+
+
+.imageInfo {
+    display: none;
+    margin: 0;
+}
+
+.mainScreen #tiles {
+    list-style-type: none;
+    margin: 2rem auto;
+    padding: 0;
+    width: 370px;
+    height: 370px;
+}
+
+.mainScreen #tiles li {
+    background-size: 400% 400%;
+    border: 1px solid #282828;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+@media only screen and (max-width: 768px) {
+    #infoButton {
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+    #textDescription {
+        padding: 0;
+        font-size: 1rem;
+    }
+}

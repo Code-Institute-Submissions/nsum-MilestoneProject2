@@ -20,7 +20,75 @@
         <!-- / Navigation -->
         <!-- Game Section -->
         <section class="container-fluid row mainScreen">
-            
+            <!-- Timer & Counter-->
+            <div class="container-fluid col-12">
+                <div class="spent row">
+                    <div id="stepBox" class="col-6 col-lg-3">
+                        <span>Move Count: </span><span class="stepCount">0</span>
+                    </div>
+                    <div id="timeBox" class="col-6 col-lg-3">Elapsed Time: <span id="timerPanel"></span> seconds</div>
+                </div>
+            </div>
+            <!-- / Timer & Counter-->
+            <!-- Game Tiles-->
+            <div id="playPanel" class="container-fluid col-lg-6">
+                <div class="puzzleBox">
+                    <ul id="tiles" class="tiles"></ul>
+                </div>
+                <div class="radios">
+                    <p id="difficulty">
+                        <input type="radio" name="level" id="easy" checked="checked" value="3" /> <label for="easy">Easy</label>
+                        <input type="radio" name="level" id="medium" value="4" /> <label for="medium">Medium</label>
+                        <input type="radio" name="level" id="hard" value="5" /> <label for="hard">Hard</label>
+                        <input type="radio" name="level" id="veryhard" value="6" /> <label for="veryhard">Very Hard</label>
+                        <input type="radio" name="level" id="insane" value="12" /> <label for="insane">Insane</label>
+                    </p>
+                    <div>
+                        <button id="btnRule" class="btn">Rules</button>
+                        <button id="newImage" class="btn" >Next Image</button>
+                        <div id="rulesBox" style="display: none; padding-top: 1rem; max-width: 370px; text-align: center; margin: auto;">
+                            <p>Double-click and drag tiles to arrange them to match the original image</p>
+                            <ul>
+                                <li>Steps taken and elapsed time are counted</li>
+                                <li>Use hint button to show or hide completed image</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- / Game Tiles-->
+            <!-- Hint Image -->
+            <div class="container-fluid col-lg-6 hintBox">
+                <div>
+                    <img id="actualImage" style="display: none;" src="#" alt="hint image"/>
+                </div>
+                <button class="btn hintButton">Show / Hide Hint</button>
+            </div>
+            <!-- / Hint Image -->
+            <!-- Info Text -->
+            <div class="container-fluid" id="infoSection" style="display: none;">
+                <h3 id="imgTitle" class="text-center col-12">&nbsp;</h3> 
+                <p id="textDescription"></p>
+            </div>
+            <!-- / Info Text -->
+            <!-- Info Button -->
+            <div class="container-fluid">
+                <button id="infoButton" class="btn">Like What You See? Read About it Here</button>
+            </div>
+            <!-- / Info Button -->
+            <!-- Game Over pop-up -->
+            <div id="gameOver" style="display:none;" >
+                <div style="padding: 1rem; text-align: center; ">
+                    <h2 style="text-align:center; margin: 0.5rem;">Congratulations!</h2>
+                    You did it in <span class="stepCount">0</span> moves
+                    <br />
+                    Elapsed Time: <span class="timeCount">0</span> seconds<br />
+                    <div>
+                        <button style="margin: 0.5rem;" class="btn" type="button" onclick="window.location.reload(true);">Play Again</button>
+                    </div>
+                </div>
+            </div>
+            <!-- / Game Over pop-up -->
         </section>
         <!-- / Game Section -->
         <!-- Footer -->
