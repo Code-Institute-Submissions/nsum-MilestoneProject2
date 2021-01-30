@@ -109,6 +109,7 @@ Game idea and code comes from Techno Geek (linked below), I changed the code and
 
 +   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](/assets/images/readmeImages/html-validate.png)
 +   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](/assets/images/readmeImages/css-validate.png)
++   [Lighthouse](https://web.dev/measure/?gclid=EAIaIQobChMI7Mjg4d3D7gIVgYCRCh0ZeQVyEAAYASAAEgJG3vD_BwE) - [Results](/assets/images/readmeImages/lighthouse.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
