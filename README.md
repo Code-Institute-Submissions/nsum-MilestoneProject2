@@ -128,13 +128,16 @@ Game idea and code comes from Techno Geek (linked below), I changed the code and
 ### Further Testing
 
 +   The Website was tested on Google Chrome, Microsoft Edge and Safari browsers.
-+   The website was viewed on a variety of devices such as Ultrawide, Desktop, Laptop, iPhone7, iPhoneX.
++   The website was viewed on a variety of devices such as Ultrawide, Desktop, Laptop, iPhone7, iPhoneX, but is not playable on touchscreen devices. 
 +   A large amount of testing was done to ensure that page and game work correctly on desktop devices.
 
 ### Issues
 + Game is not playable on touchscreen devices
++ On smaller phone sizes page does not look so good. Little effort was made to make it better on phones as it can't be played anyway. 
 
 # Deployment
+
++   CNAME file was created automatically by GitHub in order to deploy project to custom domain.
 
 ### GitHub Pages
 
